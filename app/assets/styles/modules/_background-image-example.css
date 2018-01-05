@@ -1,0 +1,7 @@
+.background-image-example {
+    &.lazyloaded {
+        background: url('../../assets/images/ex3.jpg') top center no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+}

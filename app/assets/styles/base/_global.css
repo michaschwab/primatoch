@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    color: $ourGray;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}

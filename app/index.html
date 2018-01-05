@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Primatoch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="productaanbevelingen, beste producten, onafhankelijk beoordeeld, prima toch">
+    <meta name="description" content="De beste producten - onafhankelijk behoordeeld.">
+
+    <!-- build:css assets/styles/styles.css -->
+    <link rel="stylesheet" href="temp/styles/styles.css">
+    <!-- endbuild -->
+
+    <!-- build:js assets/scripts/Vendor.js -->
+    <script src="/temp/scripts/Vendor.js"></script>
+    <!-- endbuild -->
+
+</head>
+
+<body>
+    
+    <!-- Responsive image examples -->
+    <img sizes="(min-width: 970px) 976px, 100vw" 
+    srcset="assets/images/ex1-low-res.jpg 565w, assets/images/ex1.jpg 976w, assets/images/ex1-hi-dpi.jpg 1952w" 
+    alt="Example image 1, different resolutions">
+
+    <!-- To enable lazysizes lazyloading, add .lazyload class and replace [src] and [srcset] with [data-src] and [data-srcset] -->
+    <picture>
+        <source sizes="404px" data-srcset="assets/images/ex2.jpg 404w, assets/images/ex2-hi-dpi.jpg 808w" 
+        media="(min-width: 1020px)">
+        <source sizes="320px" data-srcset="assets/images/ex2-portrait.jpg 382w, assets/images/ex2-portrait-hi-dpi.jpg 764w"
+          media="(min-width: 800px)">
+        <img class="lazyload" data-srcset="assets/images/ex2-landscape.jpg 800w, assets/images/ex2-landscape-hi-dpi.jpg 1600w" 
+        alt="Example image 2, different crops and differnt resolutions, lazyloading">
+    </picture>
+
+    <!-- Lazyloaded background image -->
+    <div class="background-image-example lazyload"></div>
+
+    <!-- Icon from sprite (generated from files in app/images/icons) -->
+    <span class="icon icon-name"></span>
+
+
+
+    <!-- build:js assets/scripts/App.js -->
+    <script src="/temp/scripts/App.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
+
