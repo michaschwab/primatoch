@@ -1,1 +1,13 @@
-$ourGray: #333;
+
+$background: #59acec;
+$backgroundShadow: rgba(7, 27, 43, 0.5);
+$accent: #e53d00;
+$accentShadow: rgba(33, 10, 1, 0.5);
+$cardBackground: hsl(206, 12%, 96%);
+$lightText: #FFF;
+$darkText: #08415C;
+
+
+$searchHeight: 3rem;
+$searchBtnGap: .4rem;
+$searchExtraBtnWidth: 0.4rem;

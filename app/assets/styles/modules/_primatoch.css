@@ -1,0 +1,19 @@
+.primatoch {
+    font-family: 'Lobster', cursive;
+    font-size: 66px;
+    margin: 0;
+    line-height: 1;
+    text-shadow: 2px 4px 2px $backgroundShadow;
+
+    @mixin atSmall {
+        font-size: 90px;
+    }
+
+    @mixin atMedium {
+        font-size: 120px;
+    }
+
+    @mixin atLarge {
+        font-size: 160px;
+    }
+}

@@ -1,6 +1,8 @@
 body {
-    font-family: sans-serif;
-    color: $ourGray;
+    background-color: $background;
+    color: $lightText;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -10,4 +12,9 @@ img {
 
 * {
     box-sizing: border-box;
+}
+
+.test {
+    position: relative;
+    padding: 1px;
 }

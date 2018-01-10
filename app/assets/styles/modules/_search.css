@@ -1,0 +1,49 @@
+.search {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+    
+    &__input {
+        box-sizing: border-box;
+        color: $darkText;
+        width: 100%;
+        height: $searchHeight;
+        padding: 0rem calc($searchHeight + $searchExtraBtnWidth) 0rem calc($searchHeight - 1rem);
+        border-radius: calc($searchHeight - $searchBtnGap) 0 calc($searchHeight - $searchBtnGap) 0em;
+        border: none;
+        outline: none;
+        box-shadow: 2px 4px 2px $backgroundShadow;
+        margin-bottom: 5px;
+        z-index: 10;
+    }
+
+    &__button {
+        box-sizing: border-box;
+        display: inline-block;
+        position: absolute;
+        background: $accent;
+        width: calc($searchHeight - 2 * $searchBtnGap + $searchExtraBtnWidth);
+        height: calc($searchHeight - 2 * $searchBtnGap);
+        line-height: calc($searchHeight - 2 * $searchBtnGap);
+        border-radius: calc($searchHeight - 2 * $searchBtnGap) 0 calc($searchHeight - 2 * $searchBtnGap) 0;
+        right: $searchBtnGap;
+        top: $searchBtnGap;
+        z-index: 11;
+        cursor: pointer;
+        box-shadow: 1px 2px 1px $accentShadow;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    &__autocomplete a {
+        background: $lightText;
+        display: block;
+        text-align: left;
+        padding: 0.5rem 1rem;
+        margin: 0 calc($searchHeight + $searchExtraBtnWidth) 0 0;
+        font-size: 1rem;
+    }
+
+}
