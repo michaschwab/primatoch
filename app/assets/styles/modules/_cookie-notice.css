@@ -1,4 +1,5 @@
-.cookies {
+.cookie-notice {
+    display: none;
     background: $cardBackground;
     box-shadow: inset 0 14px 8px -9px $backgroundShadow;
     padding: 1.2rem 0 .8rem 0;

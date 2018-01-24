@@ -1,7 +1,7 @@
 [
     {
         "productType": "televisie",
-        "reference": "#",
+        "href": "/productadvies/televisie.html",
         "synonyms": [
             "televisie",
             "tv",
@@ -10,7 +10,7 @@
     },
     {
         "productType": "smartphone",
-        "reference": "#",
+        "href": "/productadvies/smartphone.html",
         "synonyms": [
             "smartphone",
             "telefoon",
@@ -24,7 +24,7 @@
     },
     {
         "productType": "telescoop",
-        "reference": false,
+        "href": false,
         "synonyms": [
             "telescoop",
             "sterrenkijker"

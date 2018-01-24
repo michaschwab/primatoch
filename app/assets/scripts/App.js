@@ -1,3 +1,7 @@
-import ExampleScript from './modules/ExampleScript';
+import CookieNotice from './modules/CookieNotice';
+// import catalog from '../data/catalog.json';
+import Search from './modules/Search';
 
-var exampleScript = new ExampleScript();
+
+const cookieNotice = new CookieNotice();
+const search = new Search();

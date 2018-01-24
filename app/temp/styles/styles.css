@@ -708,14 +708,15 @@ img {
         font-size: 1rem;
     }
 
-.cookies {
+.cookie-notice {
+    display: none;
     background: hsl(206, 12%, 96%);
     -webkit-box-shadow: inset 0 14px 8px -9px rgba(7, 27, 43, 0.5);
             box-shadow: inset 0 14px 8px -9px rgba(7, 27, 43, 0.5);
     padding: 1.2rem 0 .8rem 0;
 }
 
-.cookies__description {
+.cookie-notice__description {
         font-size: .8rem;
         color: #08415C;
         margin: 0 0 .8rem 0;
@@ -723,13 +724,13 @@ img {
 
 @media (min-width: 800px) {
 
-.cookies__description {
+.cookie-notice__description {
             display: inline;
             margin-right: 3rem
     }
     }
 
-.cookies__btn {
+.cookie-notice__btn {
         margin: .2rem .3rem;
         padding: .5rem 1rem;
         background: hsl(206, 12%, 96%);
@@ -741,7 +742,7 @@ img {
                 transition-duration: 0.4s;
     }
 
-.cookies__btn:hover {
+.cookie-notice__btn:hover {
         background: #e53d00;
         color: #FFF;
         font-weight: bold;

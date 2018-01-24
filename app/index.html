@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <title>Primatoch</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="productaanbevelingen, beste producten, onafhankelijk beoordeeld, prima toch">
-    <meta name="description" content="De beste producten - onafhankelijk behoordeeld.">
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <title>Primatoch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="productaanbevelingen, beste producten, onafhankelijk beoordeeld, prima toch">
+  <meta name="description" content="De beste producten - onafhankelijk behoordeeld.">
 
-    <!-- build:css assets/styles/styles.css -->
-    <link rel="stylesheet" href="temp/styles/styles.css">
-    <!-- endbuild -->
+  <!-- build:css assets/styles/styles.css -->
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <!-- endbuild -->
 
-    <!-- build:js assets/scripts/Vendor.js -->
-    <script src="/temp/scripts/Vendor.js"></script>
-    <!-- endbuild -->
+  <!-- build:js assets/scripts/Vendor.js -->
+  <script src="/temp/scripts/Vendor.js"></script>
+  <!-- endbuild -->
 
 </head>
 
 <body>
-    <div class="positioned positioned--a-b-45">
-        <div class="wrapper wrapper--extra-h-padding">
-            <h1 class="primatoch">Primatoch</h1>
-            <h2 class="tagline">De beste producten van de beste websites, onafhankelijk beoordeeld.</h2>
-        </div>
+  <div class="positioned positioned--a-b-45">
+    <div class="wrapper wrapper--extra-h-padding">
+      <h1 class="primatoch">Primatoch</h1>
+      <h2 class="tagline">De beste producten van de beste websites, onafhankelijk beoordeeld.</h2>
     </div>
-    
-    
-    <div class="positioned positioned--a-t-55">
-        <div class="wrapper">
-                <div class="search">
-                        <input id="search-input" class="search__input" type="text" placeholder="Zoek een product..." autofocus>
-                        <div id="search-button" class="search__button">
-                            >
-                        </div>
-                        <div id="autocomplete" class="search__autocomplete">
-                        </div>
-                    </div>
+  </div>
+
+
+  <div class="positioned positioned--a-t-55">
+    <div class="wrapper">
+      <div class="search" id="js-search">
+        <input id="js-search__input" class="search__input" type="text" placeholder="Zoek een product..." autofocus>
+        <div id="js-search__btn" class="search__button">
+          >
         </div>
-        
-    </div>    
-
-    <div id="cookie-notice" class="positioned positioned--f-b-0">
-            <div class="cookies">
-                <div class="wrapper">
-                    <p class="cookies__description">
-                        <span>Wij gebruiken cookies! Door Primatoch te gebruiken ga je hiermee akkoord.</span>
-                        <a href="#" alt="Gebruiksvoorwaarden">Meer informatie.</a>
-                    </p>                
-                    <button class="cookies__btn" type="button" id="accept-cookies">OK</button>
-                </div>
-            </div>
+        <div id="js-search__autocomplete" class="search__autocomplete">
+        </div>
+      </div>
     </div>
-    
 
-    <!-- build:js assets/scripts/App.js -->
-    <script src="/temp/scripts/App.js"></script>
-    <!-- endbuild -->
+  </div>
+
+  <div class="positioned positioned--f-b-0">
+    <div class="cookie-notice" id="js-cookie-notice">
+      <div class="wrapper">
+        <p class="cookie-notice__description">
+          <span>Wij gebruiken cookies! Door Primatoch te gebruiken ga je hiermee akkoord.</span>
+          <a href="#" alt="Gebruiksvoorwaarden">Meer informatie.</a>
+        </p>
+        <button class="cookie-notice__btn" type="button" id="js-accept-cookies">OK</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- build:js assets/scripts/App.js -->
+  <script src="/temp/scripts/App.js"></script>
+  <!-- endbuild -->
 </body>
-</html>
 
+</html>
