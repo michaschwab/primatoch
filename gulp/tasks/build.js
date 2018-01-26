@@ -16,7 +16,8 @@ gulp.task('previewDist', function () {
     });
 });
 
-gulp.task('deleteDistFolder', ['icons'], function() {
+// Removed icon dependency for now, because it somehow deletes product pages on build
+gulp.task('deleteDistFolder', function() {
  return del("./docs");
 });
 

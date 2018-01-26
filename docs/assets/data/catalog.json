@@ -1,7 +1,7 @@
 [
     {
         "productType": "televisie",
-        "href": "/productadvies/televisie.html",
+        "href": "productadvies/televisie.html",
         "synonyms": [
             "televisie",
             "tv",
@@ -10,7 +10,7 @@
     },
     {
         "productType": "smartphone",
-        "href": "/productadvies/smartphone.html",
+        "href": "productadvies/smartphone.html",
         "synonyms": [
             "smartphone",
             "telefoon",

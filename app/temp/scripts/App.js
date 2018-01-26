@@ -289,7 +289,7 @@ exports.default = Search;
 /* 3 */
 /***/ (function(module, exports) {
 
-module.exports = [{"productType":"televisie","href":"/productadvies/televisie.html","synonyms":["televisie","tv","beeldbuis"]},{"productType":"smartphone","href":"/productadvies/smartphone.html","synonyms":["smartphone","telefoon","mobiel","mobiele telefoon","mobieltje","gsm","toestel","handy"]},{"productType":"telescoop","href":false,"synonyms":["telescoop","sterrenkijker"]}]
+module.exports = [{"productType":"televisie","href":"productadvies/televisie.html","synonyms":["televisie","tv","beeldbuis"]},{"productType":"smartphone","href":"productadvies/smartphone.html","synonyms":["smartphone","telefoon","mobiel","mobiele telefoon","mobieltje","gsm","toestel","handy"]},{"productType":"telescoop","href":false,"synonyms":["telescoop","sterrenkijker"]}]
 
 /***/ })
 /******/ ]);
