@@ -4,9 +4,9 @@ const del = require('del');
 const data = require('../../app/assets/data/catalog.json');
 const productPage = require('../templates/productPage.js');
 
-gulp.task('beginClean', () => del(['./app/productadvies/**/*']));
+gulp.task('deleteOldPages', () => del(['./app/productadvies/**/*']));
 
-gulp.task('generateProductPages', ['beginClean'], () => {
+gulp.task('generateProductPages', ['deleteOldPages'], () => {
   data.forEach((product) => {
     const template = productPage.buildHTML(product);
 
