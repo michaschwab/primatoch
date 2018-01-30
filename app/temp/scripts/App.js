@@ -275,7 +275,7 @@ var Search = function () {
     key: 'navigateToResult',
     value: function navigateToResult() {
       if (this.suggestions.input) {
-        if (this.suggestions[0]) window.location = this.suggestions[0].href;else window.location = 'http://www.google.com/search?q=' + this.suggestions.input;
+        if (this.suggestions[0]) window.location = this.suggestions[0].href || 'http://www.google.com/search?q=' + this.suggestions[0].productType;else window.location = 'http://www.google.com/search?q=' + this.suggestions.input;
       }
     }
   }]);
