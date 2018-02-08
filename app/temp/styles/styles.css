@@ -572,6 +572,7 @@ img {
     font-family: 'Lobster', cursive;
     font-size: 66px;
     margin: 0;
+    padding-top: 7rem;
     line-height: 1;
     text-shadow: 2px 4px 2px rgba(7, 27, 43, 0.5);
 }
@@ -586,6 +587,7 @@ img {
 @media (min-width: 800px) {
 
 .primatoch {
+        padding-top: 14rem;
         font-size: 120px
 }
     }
@@ -602,7 +604,7 @@ img {
     font-size: 1.3rem;
     line-height: 1.3;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.6rem;
     text-shadow: 1px 2px 1px rgba(7, 27, 43, 0.5);
     
 }
@@ -637,17 +639,8 @@ img {
 .positioned {
 
     width: 100%;
+
 }
-
-.positioned--a-b-45 {
-        position: absolute;
-        bottom: 45%;
-    }
-
-.positioned--a-t-55 {
-        position: absolute;
-        top: 55%;
-    }
 
 .positioned--f-b-0 {
         position: fixed;
@@ -657,8 +650,7 @@ img {
 .search {
     position: relative;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0.4rem auto 1rem auto;
     max-width: 30rem;
 
 }

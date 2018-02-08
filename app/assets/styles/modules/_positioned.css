@@ -2,18 +2,9 @@
 
     width: 100%;
 
-    &--a-b-45 {
-        position: absolute;
-        bottom: 45%;
-    }
-
-    &--a-t-55 {
-        position: absolute;
-        top: 55%;
-    }
-
     &--f-b-0 {
         position: fixed;
         bottom: 0%
     }
+
 }
