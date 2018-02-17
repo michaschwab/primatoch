@@ -3,7 +3,7 @@
 
 ![Primatoch screenshot](https://vanhaalen.github.io/filehost/primatoch-screenshot.png?raw=true)
 
-This project is temporarily hosted at [https://vanhaalen.github.io/primatoch](vanhaalen.github.io/primatoch) and will be migrated to www.primatoch.nl when completed.
+This project is temporarily hosted at [vanhaalen.github.io/primatoch](https://vanhaalen.github.io/primatoch) and will be migrated to www.primatoch.nl when completed.
 
 ### Setup
 
